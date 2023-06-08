@@ -1,0 +1,11 @@
+magnitude_limit: 18
+dr: 3
+apply_focus_mask: False
+limit_radius: 24.0
+n_r_knots: 10
+n_phi_knots: 15
+n_time_knots: 10
+time_resolution: 200
+time_radius: 8
+rmin: 1
+rmax: 16
