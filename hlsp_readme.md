@@ -1,5 +1,5 @@
 README file for KBonus-BKG: Kepler Background PSF light curves
-MAST webpage: https://archive.stsci.edu/hlsp/kbonus-bkjg/
+MAST webpage: https://archive.stsci.edu/hlsp/kbonus-bkg/
 Refer to this HLSP with DOI: https://dx.doi.org/10.17909/7jbr-w430
 
 
