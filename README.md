@@ -1,7 +1,7 @@
 # KBonus
 
 This repository contain notebook examples for how to read  Kepler Bonus light curve files
-and how to use the [PSFMachine](https://github.com/SSDataLab/psfmachine) 
+and how to use the [PSFMachine](https://github.com/SSDataLab/psfmachine)
 and its API to reproduce the light curve products
 presented in [Martinez-Palomera et al. 2023]() and published in
 [MAST](https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/7jbr-w430) archive.
@@ -13,9 +13,9 @@ useful to asses their quality.
 This shows the Kepler field and the distribution of detected sources:
 
 ![KBonus](figures/kepler_fov_density.png)
-The left panel shows the distribution of mission selected targets (~200k) for which the
+The left panel shows the distribution of mission selected targets (>200k) for which the
 Kepler pipeline extracted light curves.
-The right panel shows background sources (~400k) for which this work created new light curves.
+The right panel shows background sources (>400k) for which this work created new light curves.
 
 Here you will find two example notebooks:
 
