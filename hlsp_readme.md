@@ -108,13 +108,12 @@ Description of the columns available in the LIGHTCURVE Q extensions:
 | Col | Field             | Format  | Units         | Description                                           |
 |-----|-------------------|---------|---------------|-------------------------------------------------------|
 | 1   | Time              | float64 | BJD - 2454833 | Time value in BKJD                                    |
-| 2   | Cadenceno         | int32   | -             | Cadence number                                        |
 | 3   | Flux              | float64 | e-/s          | Corrected PSF flux                                    |
 | 4   | Flux_err          | float64 | e-/s          | Corrected PSF flux error                              |
 | 5   | SAP_Flux          | float64 | e-/s          | SAP flux                                              |
 | 6   | SAP_Flux_err      | float64 | e-/s          | SAP flux error                                        |
 | 7   | PSF_flux_nova     | float64 | e-/s          | Mean PSF flux                                         |
-| 8   | PSF_flux_nova_err | float64 | e-/s          | Mean PSF flux error                                   |
+| 8   | PSF_flux_err_nova | float64 | e-/s          | Mean PSF flux error                                   |
 | 9   | SAP_BKG           | float64 | e-/s          | SAP background flux                                   |
 | 10  | Centroid_Column   | float64 | pix           | Centroid column value                                 |
 | 11  | Centroid_Row      | float64 | pix           | Centroid row value                                    |
