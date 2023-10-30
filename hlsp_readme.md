@@ -191,7 +191,7 @@ The Gaia DR3 catalog description is given in [4].
 
 [1] [Van Cleve, J. E., *Kepler Data Characteristics Handbook*, ksci.rept, 2016.](https://ui.adsabs.harvard.edu/abs/2016ksci.rept....2V/abstract)
 
-[2] Martinez-Palomera, J., Hedges, C., Dotson, J., *Kepler Bonus: Light Curves of Kepler Background Sources*, submitted to AJ. 2023.
+[2] [Martinez-Palomera, J., Hedges, C., Dotson, J., *Kepler Bonus: Light Curves of Kepler Background Sources*, accepted in AJ. 2023.](https://ui.adsabs.harvard.edu/abs/2023arXiv231017733M/abstract)
 
 [3] [Hedges, C., Luger, R., Martinez-Palomera, J., Dotson, J., and Barentsen, G., *Linearized Field Deblending: Point-spread Function Photometry for Impatient Astronomers*, The Astronomical Journal, vol. 162, no. 3, 2021.](https://ui.adsabs.harvard.edu/abs/2021AJ....162..107H/abstract)
 
