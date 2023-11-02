@@ -24,4 +24,4 @@ How to use `psfmachine` API to extract light curves as in Martinez-Palomera et a
 2. [light_curve_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/light_curve_example.ipynb)
 How to read the FITS files using `lightkurve` library.
 2. [kepler_686_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/kepler_686_example.ipynb)
-Loading Kepler 473 light curve and comparing with Kepler pipeline.
+Loading Kepler 686 light curve and comparing with Kepler pipeline.
