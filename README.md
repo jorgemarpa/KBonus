@@ -3,8 +3,8 @@
 This repository contain notebook examples for how to read  Kepler Bonus light curve files
 and how to use the [PSFMachine](https://github.com/SSDataLab/psfmachine)
 and its API to reproduce the light curve products
-presented in [Martinez-Palomera et al. 2023]() and published in
-[MAST](https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/7jbr-w430) archive.
+presented in [Martinez-Palomera et al. 2023](https://ui.adsabs.harvard.edu/abs/2023arXiv231017733M/abstract)
+and published in [MAST](https://archive.stsci.edu/hlsp/kbonus-bkg) archive.
 
 The presented light curve catalog contains more than 600,000 sources extracted from
 Kepler's first mission data.
@@ -23,3 +23,5 @@ Here you will find two example notebooks:
 How to use `psfmachine` API to extract light curves as in Martinez-Palomera et al. 2023
 2. [light_curve_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/light_curve_example.ipynb)
 How to read the FITS files using `lightkurve` library.
+2. [kepler_686_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/kepler_686_example.ipynb)
+Loading Kepler 473 light curve and comparing with Kepler pipeline.
