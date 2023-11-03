@@ -93,8 +93,9 @@ Description of the columns available in the LIGHTCURVE STITCHED extension:
 |-----|-------------------|---------|---------------|---------------------------------------------------------|
 | 1   | Time              | float64 | BJD - 2454833 | Time value in BKJD                                      |
 | 2   | Cadenceno         | int32   | -             | Cadence number                                          |
-| 3   | Flux              | float64 | e-/s          | PSF flux from stitched quarters                         |
-| 4   | Flux_err          | float64 | e-/s          | PSF flux error from stitched quarters                   |
+| 3   | Quarter           | int32   | -             | Qurter number                                           |
+| 4   | Flux              | float64 | e-/s          | PSF flux from stitched quarters                         |
+| 5   | Flux_err          | float64 | e-/s          | PSF flux error from stitched quarters                   |
 | 6   | SAP_flux          | float64 | e-/s          | SAP flux from stitched quarters                         |
 | 7   | SAP_flux_err      | float64 | e-/s          | SAP flux error from stitched quarters                   |
 | 8   | PSF_flat_flux     | float64 | e-/s          | PSF flux from stitched quarters after flattening        |
@@ -107,18 +108,21 @@ Description of the columns available in the LIGHTCURVE Q extensions:
 
 | Col | Field             | Format  | Units         | Description                                           |
 |-----|-------------------|---------|---------------|-------------------------------------------------------|
-| 1   | Time              | float64 | BJD - 2454833 | Time value in BKJD                                    |
+| 1   | Cadenceno         | int32   | -             | Cadence number                                        |
+| 2   | Time              | float64 | BJD - 2454833 | Time value in BKJD                                    |
 | 3   | Flux              | float64 | e-/s          | Corrected PSF flux                                    |
 | 4   | Flux_err          | float64 | e-/s          | Corrected PSF flux error                              |
 | 5   | SAP_Flux          | float64 | e-/s          | SAP flux                                              |
 | 6   | SAP_Flux_err      | float64 | e-/s          | SAP flux error                                        |
-| 7   | PSF_flux_nova     | float64 | e-/s          | Mean PSF flux                                         |
-| 8   | PSF_flux_err_nova | float64 | e-/s          | Mean PSF flux error                                   |
-| 9   | SAP_BKG           | float64 | e-/s          | SAP background flux                                   |
-| 10  | Centroid_Column   | float64 | pix           | Centroid column value                                 |
-| 11  | Centroid_Row      | float64 | pix           | Centroid row value                                    |
-| 12  | Red_chi2          | float64 | -             | Reduced chi-squared value between PSF model and data  |
-| 13  | SAP_quality       | int32   | -             | Quality flag from the TPF                             |
+| 7   | Centroid_Column   | float64 | pix           | Centroid column value                                 |
+| 8   | Centroid_Row      | float64 | pix           | Centroid row value                                    |
+| 9   | SAP_quality       | int32   | -             | Quality flag from the TPF                             |
+| 10  | SAP_BKG           | float64 | e-/s          | SAP background flux                                   |
+| 11  | Red_chi2          | float64 | -             | Reduced chi-squared value between PSF model and data  |
+| 12  | PSF_flux_nova     | float64 | e-/s          | Mean PSF flux                                         |
+| 13  | PSF_flux_err_nova | float64 | e-/s          | Mean PSF flux error                                   |
+
+
 
 The main source catalog has the following fields:
 
