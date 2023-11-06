@@ -23,5 +23,7 @@ Here you will find two example notebooks:
 How to use `psfmachine` API to extract light curves as in Martinez-Palomera et al. 2023
 2. [light_curve_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/light_curve_example.ipynb)
 How to read the FITS files using `lightkurve` library.
-2. [kepler_686_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/kepler_686_example.ipynb)
+3. [kepler_686_example.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/kepler_686_example.ipynb)
 Loading Kepler 686 light curve and comparing with Kepler pipeline.
+3. [light_curve_caveats.ipynb](https://github.com/jorgemarpa/KBonus/blob/main/notebooks/light_curve_caveats.ipynb)
+A few caveats examples of the light curves.
